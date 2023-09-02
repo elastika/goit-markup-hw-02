@@ -136,6 +136,9 @@ color: var(--c-brand-pressed);
     background-color: var(--c-background-light);
 }
 
+.team-section-list {
+    background-color: var(--c-background-white);
+}
 .team-section-title {
     color: var(--c-primary-dark);
     font-size: 36px;
@@ -178,6 +181,7 @@ color: var(--c-brand-pressed);
     line-height: 1.5em;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .portfolio-section-list-title {
@@ -207,7 +211,7 @@ color: var(--c-brand-pressed);
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16em;
+    line-height: 1.17em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
