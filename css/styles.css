@@ -1,0 +1,215 @@
+:root {
+    --c-brand: #4D5AE5;
+    --c-brand-pressed: #404BBF;
+    --c-primary-dark: #2E2F42;
+    --c-primary-light: #FFF;
+    --c-primary-text: #434455;
+    --c-background-dark: #2E2F42;
+    --c-background-light: #F4F4FD;
+    --c-background-white: #FFF;
+}
+
+/*Base*/
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var (var(--c-primary-text));
+    background-color: var(--c-background-white);
+}
+
+a {
+    text-decoration: none;
+    color: var(--c-primary-text);
+}
+
+ul {list-style-type: none;}
+
+/*Header*/
+
+.logo {
+
+    color: var(--c-primary-dark);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo .logo-accent {
+    color: var(--c-brand);}
+
+button {
+    font-family: inherit;
+    background-color: var(--c-brand);
+    color: var(--c-primary-light);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--c-brand-pressed);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.nav-link {
+    color: var(--c-primary-dark);;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+}
+
+.nav-link:active {
+color: var(--c-brand-pressed);
+text-decoration: underline;
+}
+
+.contacts {
+    color: var(--c-primary-dark);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+}
+.contact-email:active {
+color: var(--c-brand-pressed);
+}
+
+/*Hero Section*/
+
+.hero-section {
+    background-color: var(--c-background-dark);
+}
+
+.hero-section-title {
+    color: var(--c-primary-light);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07em;
+    letter-spacing: 0.02em;
+}
+/*Features Section*/
+
+.features-section {
+    background-color: var(--c-background-white);
+}
+
+.features-section-title {
+    color: var(--c-primary-dark)
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+}
+
+.features-section-text {
+    color: var(--c-primary-text);
+    font-size: 16px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em 
+}
+
+/*Our Team Section*/
+
+.team-section {
+    background-color: var(--c-background-light);
+}
+
+.team-section-title {
+    color: var(--c-primary-dark);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11em;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-section-list-title {
+    color: var(--c-primary-dark);
+    font-size: 20px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+}
+
+.team-section-list-text {
+
+    color: var(--c-primary-text);
+    font-size: 16px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+}
+
+/*Our Portfolio Section*/
+
+.portfolio-section {
+    background-color: var(--c-background-white);
+}
+
+.portfolio-section-title {
+    color: var(--c-primary-dark);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11em;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.portfolio-section-list-title {
+    color: var(--c-primary-dark);
+    font-size: 20px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-section-list-text {
+    color: var(--c-primary-text);
+    font-size: 16px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: var(--c-background-dark);
+}
+
+.logo-footer {
+
+    color: var(--c-background-light);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-footer .logo-footer-accent {
+    color: var(--c-brand);
+}
+
+.footer-text {
+    color: var(--c-background-light);
+    font-size: 16px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+}
