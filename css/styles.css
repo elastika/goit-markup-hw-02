@@ -56,19 +56,6 @@ button:hover, button:focus {
     background-color: var(--c-brand-pressed);
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
 .nav-link {
     color: var(--c-primary-dark);;
     font-size: 16px;
@@ -91,7 +78,7 @@ text-decoration: underline;
     line-height: 1.5em;
     letter-spacing: 0.02em;
 }
-.contact-email:hover, .contact-email:focus {
+.contacts-list:hover, .contacts-list:focus {
 color: var(--c-brand-pressed);
 }
 
